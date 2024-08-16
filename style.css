@@ -1,0 +1,54 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: blue;
+   
+}
+
+.large-container{
+   width: 40%;
+   min-width: 450px;
+   position: absolute;
+   top: 45%;
+   left:30%
+  
+   
+}
+
+.small-container{
+  background-color: blue;
+  padding: 50px 40px ;
+  border: 2px solid white;
+}
+
+.new-task{
+    background-color: white;
+    padding: 30px 20px;
+    box-shadow: 0px 4px 4px 4px;
+    
+}
+
+input{
+    outline: none;
+    width: 70%;
+    height: 40px;
+    font-family: 'poppib',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 8px;
+    color: #111111;
+    font-weight: 500;
+};
+
+.push{
+     float: right;
+     
+}
+   
+
+
+
+
