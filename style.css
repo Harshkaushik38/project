@@ -1,54 +1,84 @@
 
-*{
-    margin:0px;
-    padding: 0px;
-}
+
 body{
-    background-color: blue;
-   
+    background-color: #8052ce;
 }
 
 .large-container{
-   width: 40%;
-   min-width: 450px;
-   position: absolute;
-   top: 45%;
-   left:30%
-  
+    align-items: center;
+    margin: 150px 60vh 0 70vh;
+    background-color: #8052ce;
+    padding: 50px 40px ;
+    border: 2px  solid white;
    
 }
 
-.small-container{
-  background-color: blue;
-  padding: 50px 40px ;
-  border: 2px solid white;
-}
 
-.new-task{
-    background-color: white;
+#new-task{
+    margin-top: 25px;
+    background-color: #ffff;
     padding: 30px 20px;
     box-shadow: 0px 4px 4px 4px;
-    
+    border-radius:6px ;
 }
+
 
 input{
     outline: none;
+    border: none;
     width: 70%;
-    height: 40px;
+    height: 35px;
     font-family: 'poppib',sans-serif;
     font-size: 15px;
-    border: 2px solid #d1d3d4;
+    border: 2px solid #8052ce;
     padding: 8px;
     color: #111111;
     font-weight: 500;
 };
 
-.push{
-     float: right;
-     
+#push{
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
 }
-   
 
 
+  #push{
+    height: 52px;
+    width:80px;
+    background-color: #8052ce;
+    float: right;
+    font-family: 'poppib',sans-serif;
+    font-size: 15px;
+    border: 2px solid #8052ce;
+    padding: 9px;
+ 
+    color: #111111;
+    font-weight: 500;
+    cursor: pointer;
+    
+
+  }
+  #tasks{
+    margin-top: 25px;
+    background-color: #ffff;
+    padding: 30px 20px;
+    box-shadow: 0px 4px 4px 4px;
+    border-radius:6px ;
+  }
 
 
+.delete{
+    height:52px;
+    width:82px;
+    float: top;
+    margin-left: 40vh;
+    cursor: pointer;
+    
+}
+
+.task{
+     background-color: #111111;
+     height: 50px;
+     width: 50px;
+}
