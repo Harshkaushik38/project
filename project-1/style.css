@@ -1,4 +1,5 @@
 
+*
 
 body{
     background-color: #8052ce;
@@ -10,6 +11,7 @@ body{
     background-color: #8052ce;
     padding: 50px 40px ;
     border: 2px  solid white;
+    
    
 }
 
@@ -51,9 +53,9 @@ input{
     font-family: 'poppib',sans-serif;
     font-size: 15px;
     border: 2px solid #8052ce;
-    padding: 9px;
- 
-    color: #111111;
+    padding: 8px;
+    border-radius: 8px;
+    color: #ffff;
     font-weight: 500;
     cursor: pointer;
     
@@ -64,21 +66,52 @@ input{
     background-color: #ffff;
     padding: 30px 20px;
     box-shadow: 0px 4px 4px 4px;
+    position: relative;
     border-radius:6px ;
+    font-family: 'poppib',sans-serif;
   }
 
 
-.delete{
-    height:52px;
-    width:82px;
-    float: top;
-    margin-left: 40vh;
-    cursor: pointer;
-    
+
+
+.task{ 
+  display: flex;
+align-items: center;
+justify-content: space-between;
+
+cursor: pointer;
+background-color: #ffff;
+height: 50px;
+padding: 5px 10px;
+margin-top: 10px;
+display: flex;
+
 }
 
-.task{
-     background-color: #111111;
-     height: 50px;
-     width: 50px;
+
+.task span{
+  font-family: 'poppins',sans-serif;
+  font-size: 15px;
+  font-weight: 400;
 }
+
+.task button{
+  background-color: #8052ce;
+  color: #ffffff;
+ padding:10px 15px;
+ border-bottom: 2px solid black;
+  
+}
+
+
+.completed{
+  text-decoration: line-through;
+}
+
+
+
+
+
+
+ 
+
